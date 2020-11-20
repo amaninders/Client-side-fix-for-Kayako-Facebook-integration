@@ -15,7 +15,7 @@ The extension provides a temporary fix for the FB messages sent from Kayako. Thi
 - Tick the developer mode checkbox in the top right corner.
 - Click 'Load unpacked extension' and select your folder (enclosed with this post) and click 'OK'. If all the files are valid and named correctly, a blue chrome icon should appear next to the address bar with the other extensions. 
 
-![Plugin in Action](https://i.imgur.com/diXv2v3.gif)
+![Plugin in Action](https://i.imgur.com/bdQjZpv.gif)
 
 Note: You'll need to unzip/extract the attached file to its own folder before using it as an extension.
 
