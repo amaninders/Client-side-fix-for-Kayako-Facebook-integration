@@ -10,6 +10,7 @@ The extension provides a temporary fix for the FB messages sent from Kayako. Thi
 
 ## Installation 💻
 
+- Download the [browser extension](https://github.com/amaninders/Client-side-fix-for-Kayako-Facebook-integration/archive/main.zip)
 - Open the Google Chrome browser
 - Bring up the extensions management page by clicking the spanner icon and choose Tools > Extensions
 - Tick the developer mode checkbox in the top right corner.
