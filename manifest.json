@@ -1,0 +1,26 @@
+{
+  "name": "FB Fix",
+  "manifest_version": 2,
+  "version": "1",
+  "description": "Temp-Fix for FB Messages",
+  "permissions": [ 
+    "webNavigation", 
+    "webRequest",
+    "*://*.kayako.com/"
+  ],
+  "homepage_url": "http://amaninders.github.io",
+  "browser_action": {
+    "name": "Manipulate DOM",
+    "icons": ["icon.png"],
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  
+  "content_scripts": [ {
+    "js": [ "jquery.min.js" , "content.js" ],
+    "matches": [ "*://*/*"]
+  }]
+}
