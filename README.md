@@ -1,8 +1,10 @@
-# Multiline and quotes for Kayako-Facebook
+# Temporary fix for Kayako-Facebook Integration
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 
-A Chrome extension to allow quoted characters in FB messages and enable multiline
+~~A Chrome extension to allow quoted characters in FB messages and enable multiline~~
+
+Update: Multilines are now fixed for the Facebook updates made via Kayako. This plugin only escapes the backslashes and quotes in the agent replies
 
 ## Description ✨
 

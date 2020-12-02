@@ -41,7 +41,7 @@ chrome.runtime.onMessage.addListener(function(msg, sender, sendResponse) {
                 var preHTML = editor.html();
                 var rex = new RegExp("\\\\");
                 var regex = /((?:^|[^\\])(?:\\{2})*)"/g;
-                var postHTML = preHTML.replace( rex, "\\\\").replace(regex, "$1\\\"").replace(/<br>/gi,"\\n");
+                var postHTML = preHTML.replace( rex, "\\\\").replace(regex, "$1\\\"");
                 editor.html(postHTML);
                 $('#cleanfbtext').hide();
                 $sendButton.show();
