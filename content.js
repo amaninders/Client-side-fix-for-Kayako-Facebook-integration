@@ -39,12 +39,10 @@ chrome.runtime.onMessage.addListener(function(msg, sender, sendResponse) {
             $sendButton.toggle(); //hide the send button
             $cleanButton.click(function(){
                 var preHTML = editor.html();
-                var rex = new RegExp("\\\\");
-                var regex = /((?:^|[^\\])(?:\\{2})*)"/g;
-                var postHTML = preHTML.replace( rex, "\\\\").replace(regex, "$1\\\"");
+                var postHTML = preHTML.replaceAll( /\\/g, "\\\\").replaceAll(/\"/g, '\\"');
                 editor.html(postHTML);
                 $('#cleanfbtext').hide();
-                $sendButton.show();
+                $sendButton.show();     
                 editor.focus();
                 placeCaretAtEnd( editor.get(0) );
                 $sendButton.click(function(){
